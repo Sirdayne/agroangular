@@ -1,0 +1,21 @@
+.hero{
+  float: left;
+  width: auto;
+  padding: 10px;
+  border: 1px solid #323232;
+  margin: 3px;
+  cursor: pointer;
+  transition: 0.2s linear;
+  background: #fff;
+}
+.hero p{
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+  text-align: left;
+}
+.selected{
+  border: 1px solid rgb(25, 55, 215);
+  color: rgb(25, 55, 215);
+  background: rgb(245, 245, 245);
+}
