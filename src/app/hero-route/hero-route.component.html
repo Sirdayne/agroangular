@@ -1,0 +1,10 @@
+<section *ngIf="hero">
+  <label>
+    name:
+    <input [(ngModel)]="hero.name" placeholder="name" >
+  </label>
+  <h2>{{hero.name|uppercase}}'s information: </h2>
+  <p>id: {{hero.id}}</p>
+  <p>name: {{hero.name}}</p>
+  <button (click)="goBack()">go back</button>
+</section>
