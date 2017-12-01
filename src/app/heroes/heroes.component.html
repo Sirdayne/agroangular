@@ -1,6 +1,8 @@
-<app-hero-detail [hero]="selectedHero"></app-hero-detail>
-<h2>All heroes: </h2>
-<div *ngFor="let hero of heroes" [class.selected]="hero === selectedHero" (click)="onSelect(hero)" class="hero">
-  <p>id: {{hero.id}}</p>
-  <p>name: {{hero.name}}</p>
-</div>
+<section>
+  <app-hero-detail [hero]="selectedHero"></app-hero-detail>
+  <h2>All heroes: </h2>
+  <div *ngFor="let hero of heroes" [class.selected]="hero === selectedHero" (click)="onSelect(hero)" class="hero">
+    <p>id: {{hero.id}}</p>
+    <p>name: {{hero.name}}</p>
+  </div>
+</section>

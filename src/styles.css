@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  float: left;
+  padding: 0 10px;
+}
+div, .block{
+  float: left;
+  width: auto;
+}
+section, .section{
+  float: left;
+  width: 100%;
+}
