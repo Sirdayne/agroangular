@@ -2,9 +2,9 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
-import { HeroService } from '../hero.service';
+import { HeroService } from '../../services/hero.service';
 
-import { Hero } from '../hero';
+import { Hero } from '../../hero';
 
 @Component({
   selector: 'app-hero-route',

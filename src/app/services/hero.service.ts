@@ -6,7 +6,7 @@ import { MessageService } from './message.service';
 import { Observable } from "rxjs/Observable";
 import { of } from "rxjs/observable/of";
 
-import { Hero } from './hero';
+import { Hero } from '../hero';
 //import { HEROES } from './mock-heroes';
 
 import { catchError, map, tap } from 'rxjs/operators';
